@@ -18,6 +18,7 @@ class MyEditorScript {
         List<string> EditorScenes = new List<string>();
         foreach(EditorBuildSettingsScene scene in EditorBuildSettings.scenes) {
             if (!scene.enabled) continue;
+            
             EditorScenes.Add(scene.path);
         }
         return EditorScenes.ToArray();
