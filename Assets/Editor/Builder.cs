@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-class MyEditorScript {
+
+// 
+class JenkinsEditorScript {
         static string[] SCENES = FindEnabledEditorScenes();
 
         static string APP_NAME = "Perurin";
